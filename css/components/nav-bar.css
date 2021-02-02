@@ -25,12 +25,7 @@
   left: 15px;
 }
 
-.nav__alarm {
-  background-color: #ff6229;
-  height: 5px;
-  width: 5px;
-  position: absolute;
-  border-radius: 2.5px;
+.alarm {
   left: 28px;
   bottom: 25px;
 }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:41</span>
+      </div>
+      <div class="status-bar__column">
+        <span>58%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">찾기</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+        <div class="screen-alarm"></div>
+      </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon"><i class="fas fa-qrcode"></i><span>QR코드</span></div>
+            <div class="find-icons__icon"><i class="far fa-address-book"></i><span>연락처로 추가</span></div>
+            <div class="find-icons__icon"><i class="fas fa-fingerprint"></i><span>ID로 추가</span></div>
+            <div class="find-icons__icon"><i class="fas fa-user-plus"></i><span>추천친구</span></div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">카카오톡 친구들을 찾아보세요</h6>
+            <span>친구 추천을 허용하면 카카오톡을 <br/> 사용하는 많은 친구들을 찾을 수 있습니다.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>오픈 채팅</h4>
+                <span>오픈 채팅 하러 가기 <i class="icon-right fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#BTS</h5>
+                <h6 class="open-post__hastags">#bts#army#friends</h6>
+                <div class="open-post__members">
+                    <img src="https://w.namu.la/s/dff9a691d8de1e8559a2663dccd161173c75c2cb31bc9aabcdada6e2f4ebaa67f13dda416632faddd7d6e1df65714f8b9be8e25cb3b71c0d6ecca622fb3381e506bc7289a46d7bf45fca95e55674706408cc35da33756ff5037297a7104b45ba"
+                    />
+                    <span class="open-post__members-count">802 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">               
+                    <img src="IMG/profile.jpg" />
+                    <div class="open-post__heart-count">
+                        <i class="fas fa-heart fa-xs"></i><span>326</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"
+            ><span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><div class="alarm"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/692df99c2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

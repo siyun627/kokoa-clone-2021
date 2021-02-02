@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: 0 var(--horizontal-space);
   padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: var(--main-border);
 }
 
 .birthday span,
@@ -41,7 +41,7 @@
 }
 
 .birthday__chevron i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray-color);
 }
 
 .friends-screen,
@@ -51,7 +51,7 @@
 
 .profile-screen {
   padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: var(--main-border);
 }
 
 .friends-screen__channel {
@@ -65,5 +65,5 @@
 }
 
 .friends-screen__channel-header i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray-color);
 }

@@ -3,8 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  padding: 0 var(--horizontal-space);
-  padding-top: 10px;
+  padding: 10px var(--horizontal-space);
 }
 
 .screen-header__title {
@@ -15,4 +14,14 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-alarm {
+  background-color: #ff6229;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  border-radius: 2.5px;
+  right: 15px;
+  top: 48px;
 }

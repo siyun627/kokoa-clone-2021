@@ -12,12 +12,22 @@
 /*Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2f363e;
   font-family: "Noto Sans KR", sans-serif;
+  padding-bottom: 50px;
 }
 
 .main-screen {
   padding: 10px var(--horizontal-space);
+}
+
+.alarm {
+  background-color: #ff6229;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  border-radius: 2.5px;
 }
