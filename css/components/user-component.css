@@ -65,3 +65,21 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__submtitle-more {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__mark {
+  margin-top: 8px;
+  margin-left: 4px;
+  text-align: center;
+  border: 2px solid tomato;
+  font-size: 10px;
+  font-weight: 600;
+  color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
